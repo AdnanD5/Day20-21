@@ -1,0 +1,52 @@
+.text-box{
+margin:30px 50px 10px 50px;
+border: rgb(61, 61, 138) solid 2px;
+background-color: rgb(177, 207, 241);
+color: rgb(61, 61, 138);
+font-weight: bold;
+font-family:sans-serif;
+text-align: left;
+width: auto;
+height: 200px;
+}
+.keyboard{
+margin: 10px 50px 0px 50px;
+}
+button{
+color: grey;
+background-color: black;
+border: grey solid 1px;
+width: 85px;
+height: 85px;
+font-size: 20px;
+border-radius: 10%;
+}
+.back-space{
+position: absolute;
+right: 163px;
+width: 170px;
+height: 170px;
+bottom: 197px;
+}
+.enter{
+position: absolute;
+right: 163px;
+width: 259px;
+height: 85px;
+bottom: 110px;
+}
+.shift{
+position:absolute;
+right: 163px;
+bottom: 25px;
+width: 259px;
+height: 85px;  
+}
+.bbb:hover{
+background-color: rgb(39, 39, 39);
+color: floralwhite; 
+}
+.bbb:active{
+    background-color: rgb(177, 177, 177);
+    color: rgb(0, 0, 0); 
+    }
